@@ -3,7 +3,6 @@ let money = [100, 200, 300, 400];
 let findStudent;
 let studentPosition;
 
-
 //Câu 1
 console.log(`--- CÂU 1 ---`);
 //NV2
@@ -35,6 +34,9 @@ for (let index in studentName) {
     console.log(`Vị trí index [${index}]: ${studentName[index]}`);
 }
 //NV1
+let stt = 1;
 for (let element of studentName) {
-    console.log(`Vị trí index [${index}]: ${studentName[index]}`);
+    console.log(`${stt}: ${element}`);
+    stt++;
 }
+//NV
